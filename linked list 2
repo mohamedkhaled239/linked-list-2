@@ -1,0 +1,120 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Node{
+public:
+    char data;
+    Node* next;
+};
+int main(){
+    
+    Node* M1 = new Node();
+    Node* M2 = new Node();
+    Node* M3 = new Node();
+    Node* M4 = new Node();
+    Node* M5 = new Node();
+
+    Node* A1 = new Node();
+    Node* A2 = new Node();
+    Node* A3 = new Node();
+    Node* A4 = new Node();
+    Node* A5 = new Node();
+
+
+    // A IS NOT COMPELETE
+
+    Node* H1 = new Node();
+    Node* H2 = new Node();
+    Node* H3 = new Node();
+    Node* H4 = new Node();
+    Node* H5 = new Node();
+    // A IS NOT COMPELETE
+
+    Node* A6 = new Node();
+    Node* A7 = new Node();
+    Node* A8 = new Node();
+    Node* A9 = new Node();
+    Node* A10 = new Node();
+
+    Node* ME1 = new Node();
+    Node* ME2 = new Node();
+    Node* ME3 = new Node();
+    Node* ME4 = new Node();
+    Node* ME5 = new Node();
+
+
+    Node* D1 = new Node();
+    Node* D2 = new Node();
+    Node* D3 = new Node();
+    Node* D4 = new Node();
+
+    // implementation
+
+    M1->data = 'M';
+    M1->next = M2;
+    M2->data = 'M';
+    M2->next = M3;
+    M3->data = 'M';
+    M3->next = M4;
+    M4->data = 'M';
+    M4->next = M5;
+    M5->data = 'M';
+    M5->next = NULL;
+
+    // A IS NOT COMPELETE
+
+    A1->data = 'A';
+    A1->next = A2;
+    A2->data = 'A';
+    A2->next = A3;
+    A3->data = 'A';
+    A3->next = A4;
+    A4->data = 'A';
+    A4->next = A5;
+    A5->data = 'A';
+    A5->next = NULL;
+
+    // A IS NOT COMPELETE
+
+
+    H1->data = 'H';
+    H1->next = H2;
+    H2->data = 'H';
+    H2->next = H3;
+    H3->data = 'H';
+    H3->next = H4;
+    H4->data = 'H';
+    H4->next = H5;
+    H5->data = 'H';
+    H5->next = NULL;
+
+    // A IS NOT COMPELETE
+
+    A6->data = 'A';
+    A6->next = A7;
+    A7->data = 'A';
+    A7->next = A8;
+    A8->data = 'A';
+    A8->next = A9;
+    A9->data = 'A';
+    A9->next = A10;
+    A10->data = 'A';
+    A10->next = NULL;
+
+     ME1->data = 'ME';
+    ME1->next = ME2;
+    ME2->data = 'ME';
+    ME2->next = ME3;
+    ME3->data = 'ME';
+    ME3->next = ME4;
+    ME4->data = 'ME';
+    ME4->next = ME5;
+    ME5->data = 'ME';
+    ME5->next = NULL;
+
+    D1->data = 'D';
+   D1->next = D2;
+   D2->data = 'D';
+    D2->next = D3;
+    D3->data = 'D';
+    D3->next = NULL;
+}
